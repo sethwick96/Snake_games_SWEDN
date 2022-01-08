@@ -1,6 +1,14 @@
 body {
-    background-color: #859aaf; ;
+    background-color: #ccc;
 }
 h1 {
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+h3 {
+font-family: 'Raleway', sans-serif;
+}
+#gameCanvas {
+    background-color: beige;
+    padding: 100 px;
 }
