@@ -25,7 +25,17 @@ function drawSnake(){
 }
 //move the snake
 function moveSnake(){
-}
+    let modifier = 2;
+    window.addEventListener('keydown', (event) => {
+        const {style} = img;
+        switch(event.key) {
+            case 'ArrowUp': style.top = `${parseInt(style.top) - modifier}px`; break;
+            case 'ArrowDown': style.top = `${parseInt(style.top) + modifier}px`; break;
+            case 'ArrowLeft': style.left = `${parseInt(style.left) - modifier}px`; break;
+            case 'ArrowUp': style.top = `${parseInt(style.left) + modifier}px`; break;
+        }
+    })
+};
 startGame()
 //start game using start button
 start.addEventListener("click", startGame);
