@@ -1,6 +1,54 @@
 body {
-    background-color: #859aaf; ;
+    background-color: #659dbd;
 }
 h1 {
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    padding: 40px; 
+}
+h3 {
+font-family: 'Raleway', sans-serif;
+text-align: center;
+color: black;
+}
+
+#rules {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#gameSpace {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+#gameCanvas {
+width: 400px;
+height: 400px;    
+background-color: #bc986a;
+position: absolute;
+}
+
+#button {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 420px;
+    left: 130px;
+    margin: center;
+    padding: 10px 25px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 20px;
+    border: none;
+    white-space: nowrap;
+    color:#659dbd ;
+    font-size: 15px;
+    font-weight: 800;
+}
+#mc{
+    visibility: hidden;
+    position: absolute;
 }
